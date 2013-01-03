@@ -9,7 +9,6 @@ Icon?
 ehthumbs.db
 Thumbs.db
 
+# Jekyll - lets ignore the build directory
 
-# Jekyll - lets igbnore the build directory
-
-_site
+_site/
