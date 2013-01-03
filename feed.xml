@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>James Whittaker</title>
+    <description>Software engineer &amp; Designer.</description>
+    <link>http://jameswhittaker.com</link>
+    
+      <item>
+        <title>A new year, a new blog</title>
+        <description>&lt;p&gt;I&amp;#8217;ve never been much of a blogger and I don&amp;#8217;t intend to start now to be honest! I find &lt;a href='https://twitter.com/jmwhittaker'&gt;Twitter&lt;/a&gt; to be a better medium for quick thoughts and questions.&lt;/p&gt;
+
+&lt;p&gt;I have wanted to rebuild and restart my blog for a very long time. The usual &amp;#8216;Cobbler&amp;#8217;s Children syndrome&amp;#8217; I guess. So with 2013 comes a new start and time to get through my personal to-do list.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#8217;m keeping things very simple here. A simple minimal responsive design built with a &lt;a href='http://www.netmagazine.com/interviews/luke-wroblewski-mobile-first'&gt;mobile first approach&lt;/a&gt;. No fluff just thoughts.&lt;/p&gt;
+
+&lt;p&gt;What is different this time around is how this site is built and where it&amp;#8217;s hosted. Ditching Wordpress this time around, I have gone with &lt;a href='https://github.com/mojombo/jekyll'&gt;Jekyll&lt;/a&gt; a static site generator. It&amp;#8217;s so simple yet so powerful you can get it to do almost anything you desire. Hosting is through by &lt;a href='http://pages.github.com/'&gt;Github pages&lt;/a&gt; and you can see the entire source code for the site on Github at &lt;a href='https://github.com/jmwhittaker/jameswhittaker'&gt;https://github.com/jmwhittaker/jameswhittaker&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Let&amp;#8217;s blog like it&amp;#8217;s 2013!&lt;/p&gt;</description>
+        <published>2013-01-03 00:00:00 +0000</published>
+        <link>http://jameswhittaker.com/a-new-year-a-new-blog</link>
+      </item>
+    
+  </channel>
+</rss>
