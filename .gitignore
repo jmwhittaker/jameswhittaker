@@ -8,3 +8,8 @@
 Icon?
 ehthumbs.db
 Thumbs.db
+
+
+# Jekyll - lets igbnore the build directory
+
+_site
