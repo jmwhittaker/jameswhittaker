@@ -1,5 +1,3 @@
-source: ./src
-destination: ./site
 permalink: /:title
 paginate: 5
 pygments: true
