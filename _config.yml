@@ -1,3 +1,5 @@
+name: James Whittaker
+url: http://jameswhittaker.com
 permalink: /:title
 paginate: 5
 pygments: true

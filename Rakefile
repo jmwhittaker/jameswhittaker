@@ -10,7 +10,7 @@ task :np do
   ARGV.shift
   title = ARGV.join(' ')
 
-  path = "src/_posts/#{Date.today}-#{title.downcase.gsub(/[^[:alnum:]]+/, '-')}.md"
+  path = "_posts/#{Date.today}-#{title.downcase.gsub(/[^[:alnum:]]+/, '-')}.md"
 
   if File.exist?(path)
     puts "[WARN] File exists - skipping create"
