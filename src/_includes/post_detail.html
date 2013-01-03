@@ -1,0 +1,12 @@
+<section class="post-section">
+    <header>
+        <div class="post-meta text-mute">
+            <time>{{ post.date | date: "%B %d, %Y" }}</time>
+        </div>
+        <h1 class="post-title"><a href="{{ post.url }}" class="link-plain link-subtle">{{post.title}}</a></h1>
+    </header>
+    <div class="post-body">
+        {{ post.content }}
+    </div>
+    {% include tag_list.html %}
+</section>

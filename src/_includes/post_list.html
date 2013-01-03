@@ -1,0 +1,10 @@
+<ul class="post-list">
+{% for post in site.posts %}
+    <li class="post-list-item clear-fix">
+        <time class="post-list-detail text-mute">{{post.date | date: "%B %d, %Y"}}</time>
+        <a href="{{ post.url }}" class="post-list-title link-plain link-subtle">
+            <h3>{{ post.title }}</h3>
+        </a>
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<section class="post-section">
+<h1 class="post-title">{{ page.title }}</h1>
+
+
+<ul class="post-list">
+{% for post in site.tags[page.tag] %}
+    <li class="post-list-item clear-fix">
+        <span class="post-list-detail">{{post.date | date: "%B %d, %Y"}}</span>
+        <a href="{{ post.url }}" class="post-list-title link-plain">
+            <h2>{{ post.title }}</h2>
+        </a>
+    </li>
+{% endfor %}
+</ul>
+</section>

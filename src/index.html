@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+{% for post in site.posts %}
+    <!-- {{post.date | date: "%B %d, %Y" }} -->
+    <!-- {{ post.content }} -->
+    {% include post_detail.html %}
+<!--     <section class="post-section">
+        <header>
+            <time class="post-meta text-mute">
+                {{post.date | date: "%B %d, %Y" }}
+            </time>
+            <h1 class="post-title"><a href="#" class="link-plain link-subtle">{{post.title}}</a></h1>
+        </header>
+        <div class="post-body">
+            {{ post.content }}
+        </div>
+        <div class="post-tags">
+            <a href="#" class="link-plain">Tag one</a> +
+            <a href="#" class="link-plain ">tag two</a>
+        </div>
+    </section> -->
+
+{% endfor %}
+
+

@@ -1,0 +1,6 @@
+<div class="post-tags">
+    {% for tag in post.tags %}
+        {% if tag != post.tags.first %} + {% endif %}
+        <a href="/articles/tag/{{tag | downcase | replace:' ','-'}}" class="link-plain">{{tag | downcase}}</a>
+    {% endfor %}
+</div>
