@@ -21,7 +21,7 @@ body {
     margin: 0;
     font-family: "rooney-web", sans-serif;
     font-weight: 300;
-    font-size: 1;
+    font-size: 100%;
     line-height: 2em;
     color: #444;
     background-color: #fff;
@@ -196,6 +196,8 @@ blockquote {
 }
 
 .post-section p {
+    -ms-word-break: break-word;
+    word-break: break-word;
     text-align: justify;
 }
 
